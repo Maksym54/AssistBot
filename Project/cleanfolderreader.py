@@ -31,5 +31,8 @@ class CleanFolder_reader:
     
     
     def read(self):
-        path = Value_reader(Screen("Введіть шлях до папки, де потрібно навести 'порядок'", "Поле не може бути пустим | Enter - для підтвердження")).read()
-        return CleanFolder().sort(Path(path.replace('"', '')))
+        try:
+            path = Value_reader(Screen("Введіть шлях до папки, де потрібно навести 'порядок'", "Поле не може бути пустим | Enter - для підтвердження")).read()
+            return CleanFolder().sort(Path(path.replace('"', '')))
+        except FileNotFoundError:
+            pass
