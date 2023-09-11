@@ -10,6 +10,7 @@ from contactsmanager import Contacts_manager
 from valuereader import Value_reader
 from cleanfolderreader import CleanFolder_reader
 
+
 # шляхи до файлів
 NOTES_FILE = 'notes.bin'
 CONTACS_FILE = 'contacts.bin'
@@ -19,12 +20,14 @@ MAIN_MENU = [
     'Контакти',
     'Нотатки',
     'Сортувальник',
-    'Вихід',
+    'Вихід'
 ]
+
 CONTACS_SUB = 0
 NOTES_SUB = 1
 CLEANFOLDER_SUB = 2
 MAIN_MENU_BREAK = 3
+
 
 # Підпункти
 CONTAСTS_MENU = [
@@ -50,6 +53,7 @@ NOTES_SHOW_ALL = 1
 NOTES_SEARCH = 2
 NOTES_BREAK = 3
 
+
 # Підпункти
 CLEANFOLDER_MENU = [
     'Вказати шлях до папки',
@@ -57,6 +61,7 @@ CLEANFOLDER_MENU = [
 ]
 CLEANFOLDER_ADD = 0
 CLEANFOLDER_BREAK = 1
+
 
 
 hide_cursor()
@@ -72,6 +77,7 @@ cleanfolder_menu = Menu(Screen(
     'Сортувальник файлів', 'ESC - вихід | ENTER - вибір | Вверх/Вниз - навігація'), CLEANFOLDER_MENU)
 
 
+
 # екземпляри класів сховища нотаток та контактів
 my_notes = Notes(NOTES_FILE)
 my_contacts = Contacts(CONTACS_FILE)
@@ -82,6 +88,7 @@ while choice != Menu.BREAK:
     choice_contacts = Menu.NONE
     choice_notes = Menu.NONE
     choice_cleanfolder = Menu.NONE
+
     choice = main_menu.start()
     
     # вибране підменю контакти 
@@ -138,7 +145,6 @@ while choice != Menu.BREAK:
             # назад
             elif choice_cleanfolder == CLEANFOLDER_BREAK:
                 break
-            
     elif choice == MAIN_MENU_BREAK:
         break
 
