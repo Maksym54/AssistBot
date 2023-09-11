@@ -8,6 +8,8 @@ from contactreader import Contact_reader
 from notesmanager import Notes_manager
 from contactsmanager import Contacts_manager
 from valuereader import Value_reader
+from cleanfolderreader import CleanFolder_reader
+
 
 # шляхи до файлів
 NOTES_FILE = 'notes.bin'
@@ -17,11 +19,15 @@ CONTACS_FILE = 'contacts.bin'
 MAIN_MENU = [
     'Контакти',
     'Нотатки',
-    'Вихід',
+    'Сортувальник',
+    'Вихід'
 ]
+
 CONTACS_SUB = 0
 NOTES_SUB = 1
-MAIN_MENU_BREAK = 2
+CLEANFOLDER_SUB = 2
+MAIN_MENU_BREAK = 3
+
 
 # Підпункти
 CONTAСTS_MENU = [
@@ -48,6 +54,16 @@ NOTES_SEARCH = 2
 NOTES_BREAK = 3
 
 
+# Підпункти
+CLEANFOLDER_MENU = [
+    'Вказати шлях до папки',
+    'Назад'
+]
+CLEANFOLDER_ADD = 0
+CLEANFOLDER_BREAK = 1
+
+
+
 hide_cursor()
 
 # екземпляри класів меню
@@ -57,6 +73,10 @@ contacts_menu = Menu(Screen(
     'Книга контактів', 'ESC - вихід | ENTER - вибір | Вверх/Вниз - навігація'), CONTAСTS_MENU)
 notes_menu = Menu(
     Screen('Нотатки', 'ESC - вихід | ENTER - вибір | Вверх/Вниз - навігація'), NOTES_MENU)
+cleanfolder_menu = Menu(Screen(
+    'Сортувальник файлів', 'ESC - вихід | ENTER - вибір | Вверх/Вниз - навігація'), CLEANFOLDER_MENU)
+
+
 
 # екземпляри класів сховища нотаток та контактів
 my_notes = Notes(NOTES_FILE)
@@ -67,6 +87,7 @@ choice = Menu.NONE
 while choice != Menu.BREAK:
     choice_contacts = Menu.NONE
     choice_notes = Menu.NONE
+    choice_cleanfolder = Menu.NONE
 
     choice = main_menu.start()
     
@@ -113,7 +134,17 @@ while choice != Menu.BREAK:
             # назад
             elif choice_notes == NOTES_BREAK:
                 break
-
+            
+    # вибране підменю сортувальник        
+    elif choice == CLEANFOLDER_SUB:
+        while choice_cleanfolder != Menu.BREAK:
+            choice_cleanfolder = cleanfolder_menu.start()
+            # підменю додати шлях до папки
+            if choice_cleanfolder == CLEANFOLDER_ADD:
+                CleanFolder_reader().read()
+            # назад
+            elif choice_cleanfolder == CLEANFOLDER_BREAK:
+                break
     elif choice == MAIN_MENU_BREAK:
         break
 
