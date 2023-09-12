@@ -9,7 +9,7 @@ from notesmanager import Notes_manager
 from contactsmanager import Contacts_manager
 from valuereader import Value_reader
 from cleanfolderreader import CleanFolder_reader
-
+from cleanfolder import CleanFolder
 
 # шляхи до файлів
 NOTES_FILE = 'notes.bin'
@@ -142,9 +142,11 @@ while choice != Menu.BREAK:
             # підменю додати шлях до папки
             if choice_cleanfolder == CLEANFOLDER_ADD:
                 CleanFolder_reader().read()
+                CleanFolder().interactive()
             # назад
             elif choice_cleanfolder == CLEANFOLDER_BREAK:
                 break
+        
     elif choice == MAIN_MENU_BREAK:
         break
 

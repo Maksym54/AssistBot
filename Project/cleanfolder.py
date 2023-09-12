@@ -1,5 +1,7 @@
 from pathlib import Path
-
+from messagebox import Messagebox
+from screen import Screen
+import readchar as rc
 
 class CleanFolder:
     """ Клас що отримує в користувача шлях до папки та сортує в ньому файли """
@@ -85,3 +87,16 @@ class CleanFolder:
             self.handle_media(file, folder / "Archives")
         for folder in self.FOLDERS[::-1]:
             self.handle_folder(folder)
+    
+    def interactive(self):
+        self._screen = Screen(
+            'Успіх', 'ESC - назад')     
+        while True:
+            self._screen.draw()       
+                # self._screen.title = 'Перегляд нотаток'
+                #     Messagebox(
+                #         self._screen, "Нотатки не знайдені...\nДодайте нові або змініть параметри пошуку").draw()
+            Messagebox(self._screen, "Всі файли успішно відсортовано, можете повернутися до основного меню.").draw()
+            key = rc.readkey()
+            if key == rc.key.ESC:
+                break

@@ -5,7 +5,7 @@ from pathlib import Path
 
 """ 
 |------------------------------------------|
-|             CREATE NEW CONTACT           |
+|           INPUT FOLDER DIRECTORY         |
 |------------------------------------------|
 |                                          |
 |                                          |
