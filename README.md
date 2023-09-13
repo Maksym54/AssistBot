@@ -53,7 +53,7 @@
 
 # Скріншоти програми
 
-![Головне меню](img]https://i.postimg.cc/C51z65fJ/1.png)
+![Головне меню]([url=https://postimg.cc/9R6mDWbq][img]https://i.postimg.cc/C51z65fJ/1.png[/img][/url])
 
 [url=https://postimg.cc/7CQYy1T9][img]https://i.postimg.cc/RFv3KXSk/1-1.png[/img][/url]
 
