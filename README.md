@@ -51,7 +51,9 @@
 
     -   py main.py
 
-[url=https://postimg.cc/9R6mDWbq][img]https://i.postimg.cc/C51z65fJ/1.png[/img][/url]
+# Скріншоти програми
+
+![Головне меню](img]https://i.postimg.cc/C51z65fJ/1.png)
 
 [url=https://postimg.cc/7CQYy1T9][img]https://i.postimg.cc/RFv3KXSk/1-1.png[/img][/url]
 
@@ -69,6 +71,4 @@
 
 [url=https://postimg.cc/XX5NTCNK][img]https://i.postimg.cc/jqgWnHG1/1-3-3-2.png[/img][/url]
 
-
-  
-Дякуємо, що вибрали наш продукт
+Дякуємо, що вибрали наш продукт ☺️
