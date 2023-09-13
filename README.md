@@ -53,22 +53,22 @@
 
 # Скріншоти програми
 
-![Alt text](https://i.postimg.cc/C51z65fJ/1.png "Головне меню")
+![Головне меню](https://i.postimg.cc/C51z65fJ/1.png "Головне меню")
 
-[url=https://postimg.cc/7CQYy1T9][img]https://i.postimg.cc/RFv3KXSk/1-1.png[/img][/url]
+![Книга контактів](https://i.postimg.cc/RFv3KXSk/1-1.png "Книга контактів")
 
-[url=https://postimg.cc/Z9qKgs00][img]https://i.postimg.cc/TPVLKZ6j/1-1-1.png[/img][/url]
+![Перегляд контактів](https://i.postimg.cc/TPVLKZ6j/1-1-1.png "Перегляд контактів")
 
-[url=https://postimg.cc/nCYFLfDC][img]https://i.postimg.cc/xTBct0jy/1-2.png[/img][/url]
+![Нотатки](https://i.postimg.cc/xTBct0jy/1-2.png "Нотатки")
 
-[url=https://postimg.cc/phhVV9fH][img]https://i.postimg.cc/sXKMc71v/1-2-2.png[/img][/url]
+![Перегляд нотаток](https://i.postimg.cc/sXKMc71v/1-2-2.png "Перегляд нотаток")
 
-[url=https://postimg.cc/7JSx7ptt][img]https://i.postimg.cc/j2FLVTHT/1-3.png[/img][/url]
+![Сортувальник файлів](https://i.postimg.cc/j2FLVTHT/1-3.png "Сортувальник файлів")
 
-[url=https://postimg.cc/bZyzDVxL][img]https://i.postimg.cc/9QTzkvr3/1-3-3.png[/img][/url]
+![Сортувальник файлів](https://i.postimg.cc/9QTzkvr3/1-3-3.png "Сортувальник файлів")
 
-[url=https://postimg.cc/jLrqKSCp][img]https://i.postimg.cc/vH44r1yZ/1-3-3-1.png[/img][/url]
+![Сортувальник файлів](https://i.postimg.cc/vH44r1yZ/1-3-3-1.png "Сортувальник файлів")
 
-[url=https://postimg.cc/XX5NTCNK][img]https://i.postimg.cc/jqgWnHG1/1-3-3-2.png[/img][/url]
+![Сортувальник файлів](https://i.postimg.cc/jqgWnHG1/1-3-3-2.png "Сортувальник файлів")
 
 Дякуємо, що вибрали наш продукт ☺️
