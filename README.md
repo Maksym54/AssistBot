@@ -53,7 +53,7 @@
 
 # Скріншоти програми
 
-https://i.postimg.cc/C51z65fJ/1.png
+![Screenshot]([http://url/to/img.png](https://i.postimg.cc/C51z65fJ/1.png))
 
 [url=https://postimg.cc/7CQYy1T9][img]https://i.postimg.cc/RFv3KXSk/1-1.png[/img][/url]
 
